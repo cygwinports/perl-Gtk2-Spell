@@ -1,0 +1,81 @@
+perl-Gtk2-Spell
+------------------------------------------
+Gtk2::Spell is a Perl binding for the easy to use GtkSpell spell 
+checker. GtkSpell is an easy to use library that works in conjunction 
+with the GtkTextView widget to give programs spell checking capabilities 
+with only a few lines of code.
+
+Runtime requirements:
+  cygwin-1.5.25-7
+  gtk2-x11-2.12.7-1
+  gtkspell-2.0.11-3
+  perl-5.10.0-3
+  perl-Glib-1.164-1
+  perl-Gtk2-1.164-1
+
+Build requirements:
+(besides corresponding devel packages)
+  binutils-20060817-1
+  cygport-0.3.9-1
+  gcc-core-3.4.4-3
+  make-3.81-1
+  perl-ExtUtils-Depends-0.205-2
+  perl-ExtUtils-PkgConfig-1.10-1
+
+Canonical homepage:
+  http://gtk2-perl.sourceforge.net/
+
+Canonical download:
+  http://downloads.sourceforge.net/gtk2-perl/
+
+-------------------------------------------
+
+Build instructions:
+  unpack perl-Gtk2-Spell-1.03-4-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./perl-Gtk2-Spell-1.03-4.cygport all
+
+This will create:
+  /usr/src/perl-Gtk2-Spell-1.03-4-src.tar.bz2
+  /usr/src/perl-Gtk2-Spell-1.03-4.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gtk2/Spell.pm
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gtk2/Spell/Install/Files.pm
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gtk2/Spell/Install/gtk2spellperl.h
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gtk2/Spell/Install/gtkspell.typemap
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/auto/Gtk2/Spell/.packlist
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/auto/Gtk2/Spell/Spell.bs
+  /usr/share/doc/perl-Gtk2-Spell-1.03/AUTHORS
+  /usr/share/doc/perl-Gtk2-Spell-1.03/ChangeLog
+  /usr/share/doc/perl-Gtk2-Spell-1.03/LICENSE
+  /usr/share/doc/perl-Gtk2-Spell-1.03/README
+  /usr/share/man/man3/Gtk2.Spell.3pm.gz
+
+------------------
+
+Port Notes:
+
+----- version 1.03-5 -----
+Rebuilt for perl-5.10.
+
+----- version 1.03-4 -----
+Rebuilt for perl-5.8.7 with --enable-auto-image-base.
+
+----- version 1.03-3 -----
+Rebuilt for perl-5.8.6.
+
+----- version 1.03-2 -----
+Rebuilt for perl-5.8.5.
+
+----- version 1.03-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
