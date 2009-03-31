@@ -1,4 +1,4 @@
 category: Perl Gnome
-requires: cygwin gtk2-x11 gtkspell perl perl-Glib perl-Gtk2
+requires: cygwin libgtk2.0_0 libgtkspell0 perl perl-Glib perl-Gtk2
 sdesc: "Perl bindings for gtkspell"
 ldesc: "Perl bindings for gtkspell, a GTK spell checking widget"

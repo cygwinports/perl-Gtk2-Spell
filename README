@@ -6,21 +6,22 @@ with the GtkTextView widget to give programs spell checking capabilities
 with only a few lines of code.
 
 Runtime requirements:
-  cygwin-1.5.25-7
-  gtk2-x11-2.12.7-1
-  gtkspell-2.0.11-3
-  perl-5.10.0-3
-  perl-Glib-1.164-1
-  perl-Gtk2-1.164-1
+  cygwin-1.7.0-44
+  libgcc1-4.3.2-2
+  libgtk2.0_0-2.16.0-1
+  libgtkspell0-2.0.15-10
+  perl-5.10.0-5
+  perl-Glib-1.220-1
+  perl-Gtk2-1.220-1
 
 Build requirements:
 (besides corresponding devel packages)
-  binutils-20060817-1
-  cygport-0.3.9-1
-  gcc-core-3.4.4-3
-  make-3.81-1
-  perl-ExtUtils-Depends-0.205-2
-  perl-ExtUtils-PkgConfig-1.10-1
+  binutils-20080624-2
+  cygport-0.9.6-1
+  gcc4-core-4.3.2-2
+  make-3.81-2
+  perl-ExtUtils-Depends-0.301-1
+  perl-ExtUtils-PkgConfig-1.12-1
 
 Canonical homepage:
   http://gtk2-perl.sourceforge.net/
@@ -51,30 +52,18 @@ Files included in the binary package:
   /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gtk2/Spell/Install/gtkspell.typemap
   /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/auto/Gtk2/Spell/.packlist
   /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/auto/Gtk2/Spell/Spell.bs
-  /usr/share/doc/perl-Gtk2-Spell-1.03/AUTHORS
-  /usr/share/doc/perl-Gtk2-Spell-1.03/ChangeLog
-  /usr/share/doc/perl-Gtk2-Spell-1.03/LICENSE
-  /usr/share/doc/perl-Gtk2-Spell-1.03/README
+  /usr/share/doc/perl-Gtk2-Spell/AUTHORS
+  /usr/share/doc/perl-Gtk2-Spell/ChangeLog
+  /usr/share/doc/perl-Gtk2-Spell/LICENSE
+  /usr/share/doc/perl-Gtk2-Spell/README
   /usr/share/man/man3/Gtk2.Spell.3pm.gz
 
 ------------------
 
 Port Notes:
 
------ version 1.03-5 -----
-Rebuilt for perl-5.10.
-
------ version 1.03-4 -----
-Rebuilt for perl-5.8.7 with --enable-auto-image-base.
-
------ version 1.03-3 -----
-Rebuilt for perl-5.8.6.
-
------ version 1.03-2 -----
-Rebuilt for perl-5.8.5.
-
------ version 1.03-1 -----
-Initial release for Cygwin.
+----- version 1.03-10 -----
+Initial release for Cygwin 1.7.
 
 
 Cygwin port maintained by:
