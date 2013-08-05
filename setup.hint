@@ -1,4 +1,0 @@
-category: Perl Gnome
-requires: libgtk2.0_0 libgtkspell0 perl perl-Glib perl-Gtk2
-sdesc: "Perl bindings for gtkspell"
-ldesc: "Perl bindings for gtkspell, a GTK spell checking widget"
