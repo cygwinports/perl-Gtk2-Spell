@@ -2,7 +2,7 @@ inherit gtk2-perl
 
 NAME="perl-Gtk2-Spell"
 VERSION=1.04
-RELEASE=2
+RELEASE=3
 CATEGORY="Perl"
 SUMMARY="Perl bindings for gtkspell"
 DESCRIPTION="Perl bindings for gtkspell, a GTK spell checking widget"
